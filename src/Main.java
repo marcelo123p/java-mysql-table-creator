@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/projeto_java"; // Nome do banco
         String user = "root"; // Seu usuário
-        String password = "Bbraun@2025br"; // Sua senha
+        String password = ""; // Sua senha
 
         // Cada SQL separado
         String createPessoa = """
