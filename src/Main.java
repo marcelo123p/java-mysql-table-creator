@@ -4,9 +4,9 @@ import java.sql.Statement;
 
 public class Main {
     public static void main(String[] args) {
-        String url = "jdbc:mysql://localhost:3306/projeto_java"; // Nome do banco
-        String user = "root"; // Seu usuário
-        String password = ""; // Sua senha
+        String url = "jdbc:mysql://localhost:3306/projeto_java";
+        String user = "root";
+        String password = ""; 
 
         // Cada SQL separado
         String createPessoa = """
